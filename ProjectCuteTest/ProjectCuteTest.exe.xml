@@ -1,0 +1,46 @@
+<testsuites>
+	<testsuite name="AllTests" tests="18">
+		<testcase classname="AllTests" name="VectorTestGetThis_positiveTest"/>
+		<testcase classname="AllTests" name="VectorTestGetThis_negativeTest1">
+			<error message="VectorTestGetThis_negativeTest1 unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="VectorTestPopBack_negative">
+			<error message="VectorTestPopBack_negative unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="VectorTestPopBack_positive"/>
+		<testcase classname="AllTests" name="VectorTestPushBack"/>
+		<testcase classname="AllTests" name="VectorTestGetThis_negativeTest2">
+			<error message="VectorTestGetThis_negativeTest2 unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="VectorTestIsEmpty"/>
+		<testcase classname="AllTests" name="VectorTestClear"/>
+		<testcase classname="AllTests" name="VectorTestConstructor"/>
+		<testcase classname="AllTests" name="StackTestConstructor_postive"/>
+		<testcase classname="AllTests" name="StackTestConstructor_negative">
+			<error message="StackTestConstructor_negative unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="StackClear"/>
+		<testcase classname="AllTests" name="StackPush_positive"/>
+		<testcase classname="AllTests" name="StackPush_negative">
+			<error message="StackPush_negative unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="StackPull_negative">
+			<error message="StackPull_negative unknown exception thrown" type="unexpected exception">
+unknown exception thrown
+			</error>
+		</testcase>
+		<testcase classname="AllTests" name="StackPull_positive"/>
+		<testcase classname="AllTests" name="StackIsEmpty"/>
+		<testcase classname="AllTests" name="StackSize"/>
+	</testsuite>
+</testsuites>
